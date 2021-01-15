@@ -1,0 +1,219 @@
+/*배너1*/
+.section01 {
+  width: 100%;
+  height: 730px;
+  background: url(/images/company_section01_bg.png) no-repeat fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section01 p {
+  letter-spacing: -3px;
+  text-align: center;
+  color: #363636;
+}
+
+.section01 .tit {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+.section01 .con {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+/*필수단계*/
+
+.section02 {
+  width: 100%;
+  height: 1360px;
+  background: url(/images/company_section02_bg.jpg) no-repeat;
+  margin-bottom: 200px;
+}
+
+.section02 > .tit {
+  display: inline-block;
+  padding: 180px 0 0 160px;
+  font-size: 50px;
+  letter-spacing: -5px;
+  font-weight: 400;
+  color: aliceblue;
+}
+
+.step {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.step li {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  color: aliceblue;
+  padding: 90px;
+  border-radius: 100%;
+  background: rgba(166, 146, 111, 0.8);
+}
+
+.step_02,
+.step_04 {
+  margin-top: 140px;
+}
+
+.step_01,
+.step_03 {
+  margin-top: 460px;
+}
+
+.step .step_04 .text {
+  box-sizing: border-box;
+  width: 100%;
+}
+.step li .number {
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.step li .tit {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.step li .con {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 200;
+}
+
+/*연혁및업적*/
+
+.section03 {
+  width: 100%;
+  height: 900px;
+  background: url(/images/company_section03_img.png) no-repeat center bottom;
+  margin-bottom: 300px;
+}
+
+.section03 .tit {
+  font-size: 50px;
+  background: url(/images/company_titline.png) no-repeat center bottom;
+  text-align: center;
+  height: 90px;
+}
+
+.section03 .history {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.section03 .history ul {
+  margin-top: 440px;
+  font-size: 26px;
+  color: #363636;
+}
+
+.section03 .history ul li {
+  list-style: inherit;
+  list-style-type: disc;
+}
+
+.section03 .history .twenty {
+  margin-left: 140px;
+}
+
+.section03 .history .twenty li {
+  margin-bottom: 20px;
+}
+
+.section03 .history .twentyone {
+  margin-left: -100px;
+}
+
+/* 사업흐름도 */
+
+.section04 {
+  width: 100%;
+  height: 1000px;
+  background: url(/images/company_section04_img.png) no-repeat center center;
+  display: flex;
+  flex-direction: column;
+}
+
+.section04 .titbox {
+  text-align: center;
+}
+.section04 .tit {
+  font-size: 50px;
+  background: url(/images/company_titline.png) no-repeat center bottom;
+  height: 90px;
+}
+
+.section04 .text {
+  margin-top: 20px;
+  font-size: 24px;
+  letter-spacing: -2px;
+}
+
+.section04 .explain {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 1000px;
+  font-size: 24px;
+  font-weight: 500;
+  color: #363636;
+  margin-top: 320px;
+}
+
+.section04 .explain li {
+  text-align: center;
+  width: 200px;
+  letter-spacing: -2px;
+  margin-right: 100px;
+}
+
+.section04 .explain li:last-child {
+  margin: 0;
+}
+
+/* 어반팜 */
+
+.section05 {
+  background: url(/images/company_section05_bg.jpg) no-repeat;
+  height: 1020px;
+}
+
+.section05 .urban {
+  width: 100%;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.section05 p {
+  color: aliceblue;
+  font-size: 28px;
+  letter-spacing: -1px;
+  font-weight: 600;
+}
+
+.section05 .explain {
+  margin: 260px 0 0 150px;
+}
+
+.section05 .explain li {
+  margin-bottom: 30px;
+}
+.section05 .explain li span {
+  padding-left: 50px;
+  background: url(/images/company_section05_arrow.png) no-repeat 20px 10px;
+}
+.section05 .story {
+  font-weight: 300;
+  font-size: 26px;
+  letter-spacing: -2px;
+  width: 1000px;
+}

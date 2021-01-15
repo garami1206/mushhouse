@@ -1,0 +1,83 @@
+/*헤더*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 100px;
+  -webkit-transition-duration: 0.4s;
+  -webkit-transition-timing-function: ease;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+
+.down {
+  background-color: #8f8867;
+  -webkit-transition-duration: 0.4s;
+  -webkit-transition-timing-function: ease;
+  transition-duration: 0.4s;
+  transition-timing-function: ease;
+}
+
+.header_inner {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 100px;
+}
+
+.header_menu {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5px;
+}
+.header_menu li {
+  padding-left: 80px;
+  color: aliceblue;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.header_menu li:last-child {
+  margin-left: 100px;
+}
+
+.header_menu li a {
+  color: aliceblue;
+}
+
+.header_menu li a:hover {
+  border-bottom: solid 3px #e8e474;
+}
+.header_menu li:last-child a:hover {
+  border-bottom: solid 0px #e8e474;
+}
+
+/* 푸터 */
+
+footer {
+  background-color: #8f8867;
+  text-align: center;
+  height: 150px;
+}
+
+.footer_menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer_menu li {
+  text-align: center;
+}
+
+.footer_menu p {
+  color: aliceblue;
+}
+
+.footer_menu .tit {
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 20px;
+  margin: 30px 0 20px 0;
+  background: url(/images/footer_line.png) no-repeat bottom;
+}
